@@ -1,0 +1,41 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.buttonBlock {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+}
+.buttonItem {
+    border: 1px white solid;
+}
+
+.buttonItem:hover {
+    background-color: lightgrey;
+    color: black;
+    border: 2px darkolivegreen solid;
+}
+.formTitle {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.formItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
